@@ -1,7 +1,7 @@
 import { DecodingError } from './errors';
 import { AnyJson, isDefined } from './typescript';
 
-// Regex from: https://stackoverflow.com/a/73613161
+//  Regex from: https://stackoverflow.com/a/73613161
 const isJSON = (contentType: string): boolean =>
   /application\/[^+]*[+]?(json);?.*/.test(contentType);
 
